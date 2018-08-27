@@ -11,3 +11,7 @@ function nameToAttributes(array){
     return{firstName,lastName}
   }) 
 }
+
+function attributesToPhrase(array) {
+  return array.map(el => `${el.name} is from ${el.hometown}`)
+}
